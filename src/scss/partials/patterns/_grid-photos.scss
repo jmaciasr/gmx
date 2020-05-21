@@ -1,0 +1,23 @@
+.grid-photos-4 {
+	img {
+		height: 50%;
+		width: 50%;		
+
+		@include query(768px) {
+			height: 25%;
+			width: 25%;
+    	}
+	}
+}
+
+.grid-photos-5 {
+	img {
+		height: 50%;
+		width: 50%;		
+
+		@include query(768px) {
+			height: 20%;
+			width: 20%;
+    	}
+	}
+}

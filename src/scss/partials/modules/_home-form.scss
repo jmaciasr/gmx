@@ -1,0 +1,20 @@
+.home__form {
+	background: url("../img/home-form.jpg") no-repeat fixed bottom / cover;
+	div {
+		div {
+
+		    @include query(600px) {
+	    		width: 70%;
+    		}
+
+  		    @include query(900px) {
+	    		width: 50%;
+    		}
+		}		
+	}
+
+	h2,
+	label {
+		color: #fff;
+	}
+}

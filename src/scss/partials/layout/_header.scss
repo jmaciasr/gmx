@@ -1,0 +1,92 @@
+header {
+	background: url("../img/home-header.jpg") no-repeat top / cover;
+	height: 450px;
+	margin-bottom: $space-out-large;
+
+	@include query(600px) {
+		height: 500px;
+	}
+
+	p {
+		color: #fff;
+		font-size: $font-size-header;
+	}
+
+}
+
+.header-tittle--black {
+	color: #000;
+}
+
+.header__section {
+
+	@include query(700px) {
+		width: 75%;		
+	}
+
+	@include query(1100px) {
+		width: 48%;		
+	}
+
+	img {
+		display: none;
+		margin: $space-out-large;
+
+		@include query(1100px) {
+			display: initial;
+		} 
+	}
+}
+
+.header {
+	height: 500px;
+	margin-bottom: $space-out-large;
+}
+
+.header--xi {
+	background: url("../img/xi-header.jpg") no-repeat top / cover fixed;
+}
+
+.header--bodas {
+	background: url("../img/bodas-header.jpg") no-repeat top / cover fixed;
+}
+
+.header--producto {
+	background: url("../img/producto-header.jpg") no-repeat top / cover fixed;
+}
+
+.header--personales {
+	background: url("../img/personales-header.jpg") no-repeat top / cover fixed;
+}
+
+.header--parejas {
+	background: url("../img/parejas-header.jpg") no-repeat top / cover fixed;
+}
+
+.header--familiares {
+	background: url("../img/familiares-header.jpg") no-repeat top / cover fixed;
+}
+
+.header--empresariales {
+	background: url("../img/empresariales-header.jpg") no-repeat top / cover fixed;
+}
+
+.header--deportivos {
+	background: url("../img/deportivos-header.jpg") no-repeat top / cover fixed;
+}
+
+.header--embarazo {
+	background: url("../img/embarazo-header.jpg") no-repeat top / cover fixed;
+}
+
+.header--conceptual {
+	background: url("../img/conceptual-header.jpg") no-repeat top / cover fixed;
+}
+
+.header--celebraciones {
+	background: url("../img/celebraciones-header.jpg") no-repeat top / cover fixed;
+}
+
+.header--bebes {
+	background: url("../img/bebes-header.jpg") no-repeat top / cover fixed;
+}

@@ -1,0 +1,39 @@
+.l-content {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.l-group {
+    @include micro-clearfix;
+}
+
+.group {
+    padding: 0 $space-base;
+    margin: 0 auto;
+    max-width: 1200px;
+
+    // @include query(900px) {
+    // width: 95%;
+    // }
+}
+
+.make-hidden {
+    display: none;
+}
+
+.make-visible {
+    display: initial;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-row--between {
+    justify-content: space-between;
+}
+
+.flex-row--center {
+    justify-content: center;
+}

@@ -1,0 +1,35 @@
+//fonts
+$font-base: 'Montserrat', sans-serif;;
+
+//$font-contrast:;
+$font-size: 16px;
+$font-size-header: 18px;
+//colors
+$color-base: #af2828;
+$color-contrast: #711c80;
+$color-accent: #2f02b7;
+$color-brand: #c6a461;
+
+// Inside components
+$space-base: 1rem;
+$space-small: 2rem; //32px
+$space-medium: 4rem; // 56px
+$space-large: 6rem; // 100px
+$space-x-large:10rem; // 160px
+$space-xx-large:12rem; // 192px
+
+// Between components
+$space-out-small: 1.25rem; // 20px
+$space-out-medium: 2rem; // 32px
+$space-out-large: 4rem; // 56px
+$space-out-x-large: 10rem; // 160px
+$space-out-xx-large: 15rem; // 240px
+
+// border radius 
+$radius-principal: 10px;
+$radius-btn: 10px;
+
+// shadows 
+$shadow-soft:  0px 2px 10px #000;
+$shadow-mid:  0px 2px 20px #000;
+$shadow-hard:  5px 5px 15px #000;

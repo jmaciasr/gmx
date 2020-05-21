@@ -1,0 +1,39 @@
+.info-card {
+	padding: $space-base;
+	
+	img {
+		display: block;
+		margin: 0 auto;
+		width: 100px;
+	}
+
+	p {
+		padding: $space-base 0;
+	}
+
+	span {
+		font-weight: 700;
+	}
+}
+
+.info-card--3 {
+
+	@include query(500px) {
+		width: 50%;
+	}
+
+	@include query(900px) {
+		width: 33.3%;
+	}
+}
+
+.info-card--4 {
+
+	@include query(500px) {
+		width: 50%;
+	}
+
+	@include query(900px) {
+		width: 25%;
+	}
+}
